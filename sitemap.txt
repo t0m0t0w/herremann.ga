@@ -23,4 +23,5 @@ https://herremann.ga/semidone.mp3
 https://herremann.ga/sitemap.txt
 https://herremann.ga/sitemap.xml
 https://herremann.ga/zeldaoverworld.mid
+https://herremann.ga/cat/
 https://herremann.ga/y/
