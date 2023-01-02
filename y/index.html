@@ -1,13 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <style>
+        #meow {
+            position: fixed;
+            right: 0;
+            bottom: 0;
+            min-width: 100%;
+            min-height: 100%;
+        }
+    </style>
+    <script>
+        var video = document.getElementById("meow")
+        if (video.paused) {
+            video.play();
+        }
+        function toggleMuted() {
+            var sound = document.getElementById('meow');
+            sound.muted = !sound.muted;
+        }
+    </script>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>herremann gay</title>
 </head>
 <body>
+    <video autoplay loop id="meow">
+        <source src="Nyan-Cat.mp4" type="video/mp4">
+    </video>
     <h1>hi there!</h1>
     <p>this is a simple site to host my images and files away from my other websites. domain graciausly donated by <a href="https://boof.eu.org">boof (HexaHigh)</a></p>
+    <button onclick="toggleMuted()">Mute|Unmute</button>
 </body>
 </html>
