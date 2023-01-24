@@ -1,4 +1,5 @@
 https://herremann.ga/
+https://herremann.ga/Future - Mask Off.mid
 https://herremann.ga/Loop.wav
 https://herremann.ga/Loop2.wav
 https://herremann.ga/Paradise falls.mp3
@@ -13,9 +14,11 @@ https://herremann.ga/finished.mp3
 https://herremann.ga/gravityfalls.mid
 https://herremann.ga/hesapirate.mid
 https://herremann.ga/hopesanddreams.mid
+https://herremann.ga/index.css
 https://herremann.ga/lifelight.mid
 https://herremann.ga/lillekattepus.mp3
 https://herremann.ga/mario64.mid
+https://herremann.ga/meow.js
 https://herremann.ga/meth.mid
 https://herremann.ga/onceaponatime.mid
 https://herremann.ga/sadbanana.png
@@ -23,5 +26,5 @@ https://herremann.ga/semidone.mp3
 https://herremann.ga/sitemap.txt
 https://herremann.ga/sitemap.xml
 https://herremann.ga/zeldaoverworld.mid
-https://herremann.ga/cat/
+https://herremann.ga/meow/
 https://herremann.ga/y/
