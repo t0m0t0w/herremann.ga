@@ -12,6 +12,8 @@ https://herremann.ga/episksang.mp3
 https://herremann.ga/fallendown.mid
 https://herremann.ga/finished.mp3
 https://herremann.ga/gravityfalls.mid
+https://herremann.ga/graze the roof channel 1.mid
+https://herremann.ga/graze the roof channel 2.mid
 https://herremann.ga/hesapirate.mid
 https://herremann.ga/hopesanddreams.mid
 https://herremann.ga/index.css
