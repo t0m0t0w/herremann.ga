@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <style>
         #meow {
@@ -12,9 +13,13 @@
         }
     </style>
     <script>
-        var video = document.getElementById("meow")
-        if (video.paused) {
-            video.play();
+        function noPause() {
+            var video = document.getElementById("meow")
+            while (true) {
+                if (video.paused) {
+                    video.play();
+                }
+            }
         }
     </script>
     <script>
@@ -28,12 +33,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>herremann gay</title>
 </head>
-<body>
+
+<body onload="noPause">
     <video autoplay loop id="meow">
         <source src="/cantaloupe.jpeg.mp4" type="video/mp4">
     </video>
     <h1>hi there!</h1>
-    <p>this is a simple site to host my images and files away from my other websites. domain graciausly donated by <a href="https://boof.eu.org">boof (HexaHigh)</a></p>
+    <p>this is a simple site to host my images and files away from my other websites. domain graciausly donated by <a
+            href="https://boof.eu.org">boof (HexaHigh)</a></p>
     <button onclick="toggleMuted()">Mute|Unmute</button>
 </body>
+
 </html>
