@@ -20,6 +20,7 @@
         }
     </script>
     <script>
+        noPause();
         async function noPause() {
             var video = document.getElementById("meow")
             while (true) {
@@ -29,6 +30,14 @@
                     await delay(500)
                     noPause()
                 }
+            }
+        }
+    </script>
+    <script>
+        function checkPaused() {
+            var video = document.getElementById("meow")
+            if (video.paused == true) {
+                video.play();
             }
         }
     </script>
@@ -44,7 +53,7 @@
     <title>herremann gay</title>
 </head>
 
-<body onload="noPause()">
+<body onload="checkPaused()">
     <video autoplay loop id="meow">
         <source src="/cantaloupe.jpeg.mp4" type="video/mp4">
     </video>
