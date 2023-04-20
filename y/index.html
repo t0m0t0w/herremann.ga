@@ -13,11 +13,19 @@
         }
     </style>
     <script>
-        function noPause() {
+        function sleep(ms) {
+            return new Promise(resolve => setTimeout(resolve, ms));
+        }
+    </script>
+    <script>
+        async function noPause() {
             var video = document.getElementById("meow")
             while (true) {
                 if (video.paused == true) {
                     video.play();
+                } else {
+                    sleep(500)
+                    noPause()
                 }
             }
         }
