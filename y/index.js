@@ -12,11 +12,9 @@ function checkPaused() {
         }
     } catch(e) {
         console.log("An error occured: " + e)
-        noPause();
     }
 }
 
-noPause();
 async function noPause() {
     await delay(500)
     checkPaused();
