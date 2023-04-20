@@ -13,35 +13,6 @@
         }
     </style>
     <script>
-        function delay(milliseconds) {
-            return new Promise(resolve => {
-                setTimeout(resolve, milliseconds);
-            });
-        }
-    </script>
-    <script>
-        noPause();
-        async function noPause() {
-            var video = document.getElementById("meow")
-            while (true) {
-                if (video.paused == true) {
-                    video.play();
-                } else {
-                    await delay(500)
-                    noPause()
-                }
-            }
-        }
-    </script>
-    <script>
-        function checkPaused() {
-            var video = document.getElementById("meow")
-            if (video.paused == true) {
-                video.play();
-            }
-        }
-    </script>
-    <script>
         function toggleMuted() {
             var sound = document.getElementById('meow');
             sound.muted = !sound.muted;
@@ -51,9 +22,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>herremann gay</title>
+    <script src="index.js" defer></script>
 </head>
 
-<body onload="checkPaused()">
+<body>
     <video autoplay loop id="meow">
         <source src="/cantaloupe.jpeg.mp4" type="video/mp4">
     </video>
