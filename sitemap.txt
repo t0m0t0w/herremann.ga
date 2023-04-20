@@ -12,21 +12,29 @@ https://herremann.ga/episksang.mp3
 https://herremann.ga/fallendown.mid
 https://herremann.ga/finished.mp3
 https://herremann.ga/gravityfalls.mid
+https://herremann.ga/graze the roof both channels.mid
 https://herremann.ga/graze the roof channel 1.mid
 https://herremann.ga/graze the roof channel 2.mid
 https://herremann.ga/hesapirate.mid
 https://herremann.ga/hopesanddreams.mid
 https://herremann.ga/index.css
+https://herremann.ga/javielsker.mid
+https://herremann.ga/kjell.mid
 https://herremann.ga/lifelight.mid
 https://herremann.ga/lillekattepus.mp3
+https://herremann.ga/mandag.mid
 https://herremann.ga/mario64.mid
 https://herremann.ga/meow.js
 https://herremann.ga/meth.mid
+https://herremann.ga/nevergonnagiveyouup.mid
 https://herremann.ga/onceaponatime.mid
+https://herremann.ga/rosahelikopter.mid
 https://herremann.ga/sadbanana.png
 https://herremann.ga/semidone.mp3
 https://herremann.ga/sitemap.txt
 https://herremann.ga/sitemap.xml
+https://herremann.ga/skattbra.mid
 https://herremann.ga/zeldaoverworld.mid
 https://herremann.ga/meow/
 https://herremann.ga/y/
+https://herremann.ga/y/index.js
