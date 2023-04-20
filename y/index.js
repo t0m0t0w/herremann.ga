@@ -5,10 +5,13 @@ function delay(milliseconds) {
 }
 
 function checkPaused() {
-    var video = document.getElementById("meow")
-    if (video.paused == true) {
-        video.play();
-    } else {
+    try {
+        var video = document.getElementById("meow")
+        if (video.paused == true) {
+            video.play();
+        }
+    } catch(e) {
+        console.log("An error occured: " + e)
         noPause();
     }
 }
