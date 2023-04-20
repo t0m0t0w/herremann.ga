@@ -13,8 +13,10 @@
         }
     </style>
     <script>
-        function sleep(ms) {
-            return new Promise(resolve => setTimeout(resolve, ms));
+        function delay(milliseconds) {
+            return new Promise(resolve => {
+                setTimeout(resolve, milliseconds);
+            });
         }
     </script>
     <script>
@@ -24,7 +26,7 @@
                 if (video.paused == true) {
                     video.play();
                 } else {
-                    sleep(500)
+                    await delay(500)
                     noPause()
                 }
             }
